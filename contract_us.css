@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-manu ul{
+    text-decoration: none;
+    float: right;
+    display: inline ;
+    background-color: #0B2239;
+    width: 100%; 
+}
+.nav-manu ul li{
+    text-decoration: none;
+    float: right;
+    display: inline ;
+    padding: 20px;
+    
+}
+.nav-manu ul li a{
+    text-decoration: none;
+    float: right;
+    font-size: 30px; 
+    letter-spacing: 2px;
+    color: white;
+}
+.nav-manu ul li a:hover{
+    background-color: #4AD295;
+}
+.nav-manu h1{
+    color: red;
+    padding: 2px 2px;
+}
+.nav-manu h1 span{
+    color: green;
+}
+.img{
+
+    width: 130px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+}
+.bio{
+    float: left;
+    padding: 30px;  
+}
+.contract{
+    float: right;
+    padding: 30px;
+}
+.divclear{
+    clear: both;
+}
+.hr{
+    border: solid black 3px;
+    border-bottom: none;   
+}
+.all{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #F0ECEB;  
+    
+     
+}

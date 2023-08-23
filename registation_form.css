@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-manu ul{
+    text-decoration: none;
+    float: right;
+    display: inline ;
+    background-color: #0B2239;
+    width: 100%; 
+}
+.nav-manu ul li{
+    text-decoration: none;
+    float: right;
+    display: inline ;
+    padding: 20px;
+    
+}
+.nav-manu ul li a{
+    text-decoration: none;
+    float: right;
+    font-size: 30px; 
+    letter-spacing: 2px;
+    color: white;
+}
+.nav-manu ul li a:hover{
+    background-color: #4AD295;
+}
+.nav-manu h1{
+    color: red;
+    padding: 2px 2px;
+}
+.nav-manu h1 span{
+    color: green;
+}
+.body{
+    background-image: url("train1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.register_now{
+
+    width: 330px;
+     height: 570px;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(52,73,94,1);
+    margin: 0 auto;  
+}
+form h2{
+    color: #ecf0f1;
+    border-bottom: 1px solid white;
+}
+.input-style{
+    
+    margin-top: 15px;
+
+}
+.input-style input{
+    width: 90%;
+    background: transparent;
+    padding: 3px;
+    border: 2px solid #16a085;
+    border-radius: 5px;
+    color: #ecf0f1;
+    outline: none;
+    height: 15px;
+    margin-bottom: 10px;
+
+}
+.input-style label{
+    color: #ecf0f1;
+    margin-bottom: 4px;
+    display: block;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 1px;
+
+}
+.option{
+    margin-top: 6px;
+    color: white;
+}
+
+.register-page input{
+    
+    margin: 10px;
+    padding: 10px;
+    width: 95%;
+    height:35px;
+    border: 1px solid;
+    background-color: #C220C4;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 20px;
+   
+    
+}
+input[type="submit"]:hover{
+    background-color: green;
+    text-decoration: underline;
+    cursor: pointer;
+}
